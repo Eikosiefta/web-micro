@@ -1,0 +1,46 @@
+.navbar-custom {
+    background-color: #56ab2f !important; /* Green background */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #FFFFFF !important; /* White text */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #FFFACD !important; /* Light yellow on hover */
+}
+
+body {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    min-height: 100rem;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 75vh; /* Full viewport height to center content in the page */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 65vh; /* Full viewport height to center content in the page */
+}
+
+:target {
+    scroll-margin-top: 70px; /* Adjust for navbar height */
+}
