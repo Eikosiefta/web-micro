@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fonts/Poppins-Regular.ttf') format('truetype'),
+         url('Fonts/Poppins-Bold.ttf') format('truetype'),
+         url('Fonts/Poppins-Italic.ttf') format('truetype'),
+         url('Fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bs-body-font-family: 'Poppins', sans-serif !important;
+}
+
+
 .navbar-custom {
     background-color: #56ab2f !important; /* Green background */
 }
@@ -8,7 +23,7 @@ html {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: #FFFFFF !important; /* White text */
+    color: 	#264d00 !important; /* White text */
 }
 
 .navbar-custom .nav-link:hover {
@@ -19,7 +34,11 @@ body {
     background: #56ab2f;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    min-height: 100rem;
+    min-height: 55rem;
+}
+
+body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .container1 {
@@ -37,14 +56,51 @@ body {
     justify-content: center; /* Center items vertically */
 }
 
+.about-text {
+    max-width: 800px;
+    word-wrap: break-word;
+    text-align: justify;
+    margin: 0 auto;
+}
+
 .container3 {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
-    height: 65vh; /* Full viewport height to center content in the page */
+    height: 25vh;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: 0px !important;
+    padding-top: 10px;
+    margin-top: 2rem !important;
+    padding-top: 0 !important;
 }
 
 :target {
     scroll-margin-top: 70px; /* Adjust for navbar height */
+}
+
+footer {
+    margin-top: 20px; /* Add some space before footer */
+}
+
+.tagline {
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: hsl(0, 0%, 75%) !important; /* Even darker */
+}
+
+.navbar-custom .nav-link {
+    color: 	#264d00 !important;
+    transition: color 0.3s ease-in-out;
 }

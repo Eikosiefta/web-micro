@@ -6,14 +6,26 @@ Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok 
 
 ## Anggota Kelompok
 
-1. Dimas Rahadian Asri (X-7, Div. Video Editing)
-2. Donahue Dewandharu Adi Prasetiyo (X-8, Div. Photography)
-3. Arkan Izz Zaydan Maulana (X-8, Div. Programming)
-4. Al Rasyid Juanda (X-9, Div. Photography)
+1. Muhammad Zibril (X-9, Div. DKV)
+2. Muhammad Nidzar Yusuf (X-4, Div. DKV)
+3. Panji Irawan (X-12, Div. Photography)
+4. Prita Aprilia Rohmat (X-2, Div. Photography)
+5. Al Rasyid Juanda (X-9, Div. Photography)
+6. Donahue Abyan Dewandharu (X-8, Div. Photography)
+7. Arkan Izz Zaydan Maulana (X-8, Div. Programming)
+8. Wisnumurti Ugroseno (X-1, Div. Programming)
+9. Faiq Musyaffa Zainal (X-2, Div. Programming)
+10. Dimas Rahadian Asri (X-7, Div. Video Editing)
 
 ---
 
-## LOG: 08/02/25
+## LOG: 08/02/25 II
+
+- Fixes to 'Poppins' Font
+- Added Fonts
+- Fixed placeholder texts
+
+## LOG: 08/02/25 I
 
 - Fixes to scrolling on desktop
 - Fixes to Bootstrap not loading on mobile platform
