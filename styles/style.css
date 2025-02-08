@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('/styles/Fonts/Poppins-Regular.ttf') format('truetype'),
-         url('/styles/Fonts/Poppins-Bold.ttf') format('truetype'),
-         url('/styles/Fonts/Poppins-Italic.ttf') format('truetype'),
-         url('/styles/Fonts/Poppins-Medium.ttf') format('truetype');
+    src: url('Fonts/Poppins-Regular.ttf') format('truetype'),
+         url('Fonts/Poppins-Bold.ttf') format('truetype'),
+         url('Fonts/Poppins-Italic.ttf') format('truetype'),
+         url('Fonts/Poppins-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
