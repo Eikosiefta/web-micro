@@ -35,7 +35,7 @@ body {
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     min-height: 55rem;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
 }
 
 body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
