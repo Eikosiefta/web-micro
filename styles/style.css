@@ -32,7 +32,7 @@ html {
 
 body {
     min-height: 55rem;
-    background-image: url(/img/backdrop.jpg) !important ;
+    background-image: url(img/backdrop.jpg) !important ;
     color: #000 !important;
 }
 
