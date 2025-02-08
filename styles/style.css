@@ -14,7 +14,7 @@
 
 
 .navbar-custom {
-    background-color: #3f8a1c !important; /* Green background */
+    background-color: #3C963D !important;
 }
 
 html {
@@ -23,19 +23,25 @@ html {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: 	#264d00 !important; /* White text */
+    color: 	#000 !important;
 }
 
 .navbar-custom .nav-link:hover {
-    color: #FFFACD !important; /* Light yellow on hover */
+    color: #FFFACD !important;
 }
 
 body {
-    background: #56ab2f;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     min-height: 55rem;
-    background-image: url(img/background.jpg);
+    background-image: url(/img/backdrop.jpg) !important ;
+    color: #000 !important;
+}
+
+a:hover {
+    color: #FFFACD !important;
+}
+
+a {
+    color: #000 !important;
 }
 
 body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
@@ -44,10 +50,10 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
 
 .container1 {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    height: 75vh; /* Full viewport height to center content in the page */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -55,11 +61,13 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
 
 .container2 {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    margin-left: 75px;
-    margin-right: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: 150px;
 }
 
 .about-text {
@@ -69,12 +77,37 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-.container3 {
+.container3, .title {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     height: 75vh;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    margin-top: -100px;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
 }
 
 .container4 {
@@ -91,11 +124,11 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
 }
 
 :target {
-    scroll-margin-top: 70px; /* Adjust for navbar height */
+    scroll-margin-top: 70px;
 }
 
 footer {
-    margin-top: 20px; /* Add some space before footer */
+    margin-top: 20px;
 }
 
 .tagline {
@@ -103,10 +136,30 @@ footer {
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
-    color: hsl(0, 0%, 75%) !important; /* Even darker */
+    color: hsl(0, 0%, 75%) !important;
 }
 
 .navbar-custom .nav-link {
     color: 	#264d00 !important;
     transition: color 0.3s ease-in-out;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-track {
+    background: #eee;
 }

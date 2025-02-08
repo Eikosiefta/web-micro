@@ -1,6 +1,6 @@
 # PROJEK PENGUKUHAN MICRO - Web
 
-Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok diminum pada saat haus setelah berolahraga intens. Minuman kami juga dibundroll dengan harga **{{price}}k**.
+Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok diminum pada saat haus setelah berolahraga intens. Minuman kami juga dibundroll dengan harga Rp10.000,00.
 
 *Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.*
 
@@ -19,6 +19,13 @@ Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok 
 11. Dimas Rahadian Asri (X-7, Div. Video Editing)
 
 ---
+
+## LOG: 08/02/25 IV
+
+- Added better gallery
+- Fixed gallery
+- Added poster
+- *Generic responsiveness fix*
 
 ## LOG: 08/02/25 III
 

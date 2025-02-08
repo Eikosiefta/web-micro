@@ -13,3 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// const scrollContainer = document.querySelector('.scrolling-wrapper');
+
+// function scrollLeft() {
+//     scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+// }
+
+// function scrollRight() {
+//     scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+// }
