@@ -12,12 +12,18 @@ Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok 
 4. Prita Aprilia Rohmat (X-2, Div. Photography)
 5. Al Rasyid Juanda (X-9, Div. Photography)
 6. Donahue Abyan Dewandharu (X-8, Div. Photography)
-7. Arkan Izz Zaydan Maulana (X-8, Div. Programming)
-8. Wisnumurti Ugroseno (X-1, Div. Programming)
-9. Faiq Musyaffa Zainal (X-2, Div. Programming)
-10. Dimas Rahadian Asri (X-7, Div. Video Editing)
+7. Ameyza Amelia Rahman (X-7, Div. Photography)
+8. Arkan Izz Zaydan Maulana (X-8, Div. Programming)
+9. Wisnumurti Ugroseno (X-1, Div. Programming)
+10. Faiq Musyaffa Zainal (X-2, Div. Programming)
+11. Dimas Rahadian Asri (X-7, Div. Video Editing)
 
 ---
+
+## LOG: 08/02/25 III
+
+- Added favicon
+- Added background image
 
 ## LOG: 08/02/25 II
 
