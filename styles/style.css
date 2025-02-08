@@ -32,7 +32,11 @@ html {
 
 body {
     min-height: 55rem;
+<<<<<<< HEAD
     background-image: url(https://eikosiefta.github.io/web-micro/img/backrop.jpg) !important ;
+=======
+    background-image: url(img/backdrop.jpg) !important ;
+>>>>>>> e073f5b4e0a15b3e25b49420fc7eeb8846f62d8a
     color: #000 !important;
 }
 
