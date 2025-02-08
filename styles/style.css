@@ -91,7 +91,7 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 11px;
     height: 75vh;
     margin-bottom: 75px;
     flex-wrap: wrap;
