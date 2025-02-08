@@ -2,6 +2,10 @@
     background-color: #56ab2f !important; /* Green background */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
     color: #FFFFFF !important; /* White text */
