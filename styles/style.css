@@ -32,11 +32,7 @@ html {
 
 body {
     min-height: 55rem;
-<<<<<<< HEAD
-    background-image: url(https://eikosiefta.github.io/web-micro/img/backrop.jpg) !important ;
-=======
-    background-image: url(img/backdrop.jpg) !important ;
->>>>>>> e073f5b4e0a15b3e25b49420fc7eeb8846f62d8a
+    background-image: url(/styles/img/backdrop.jpg) !important ;
     color: #000 !important;
 }
 
@@ -111,7 +107,16 @@ body, .navbar, .btn, .nav-link, p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 2rem;
+}
+
+.video {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .container4 {

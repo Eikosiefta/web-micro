@@ -20,6 +20,13 @@ Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok 
 
 ---
 
+## LOG: 08/02/25 V
+
+- Finalizing project by adding Advertisement
+- Fixed compability issues with mobile platforms
+- *Generic bug fixes*
+- **MIGHT** be the last log, unless there's a bug after committing and publishing
+
 ## LOG: 08/02/25 IV
 
 - Added better gallery

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height initial-scale=1">
     <title>Melon Squash</title>
-    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="icon" type="image/x-icon" href="/styles/img/logo.ico">
     <!-- Own CSS -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
 </head>
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="img/logo.ico" alt="Logo" width="30" height="24" srcset="">
+            <img src="/styles/img/logo.ico" alt="Logo" width="30" height="24" srcset="">
             Melon Squash
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
     <div class="container1">
         <h2 class="tagline">Rasakan kesegarannya dalam setiap tegukannya!</h2>
         <br>
-        <img src="/img/product.png" alt="FOTO PRODUK" style="height: 250px; width: 250px;">
+        <img src="/styles/img/product.png" alt="FOTO PRODUK" style="height: 250px; width: 250px;">        
         <br>
         <p>Melon Squash - Rp10.000,00</p>
     </div>
@@ -43,30 +43,37 @@
     <!-- Article -->
     <article id="about" class="container2 about-text">
         <h2>About "Melon Squash"</h2>
-        <p>Melon squash, merupakan sebuah minuman yang menyegarkan yang dapat membantu menghilangkan rasa haus. Minuman ini cocok untuk diminum pada waktu saat panas. Haus? Butuh minuman dingin yang efektif dalam menghilangkan haus? Minum Melon Squash aja! Rasakan kesegarannya dalam setiap tegukannya!</p>
+        <p>Melon squash, merupakan sebuah minuman yang menyegarkan, dan dapat membantu menghilangkan rasa haus. Minuman ini cocok untuk diminum pada waktu saat panas. Atau, minuman ini juga bisa menjadi teman jika anda merasa gerah, atau capek. Haus? Butuh yang segar-segar di siang hari yang panas? Minum Melon Squash aja! Rasain segarnya, rasain juga manisnya!</p>
     </article>
 
     <!-- Gallery -->
       <section id="gallery" class="container3">
         <h2 class="title">Gallery</h2>
         <div class="images">
-          <img src="img/photo1.jpg" alt="" style="height: 250px; width: 165px;">
-          <img src="img/photo2.jpg" alt="" style="height: 250px; width: 165px;">
-          <img src="img/photo3.jpg" alt="" style="height: 250px; width: 165px;">
-          <img src="img/photo4.jpg" alt="" style="height: 250px; width: 165px;">
-          <img src="img/photo5.jpg" alt="" style="height: 250px; width: 165px;">
-          <img src="img/photo6.jpg" alt="" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo1.jpg" alt="proses" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo2.jpg" alt="proses" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo3.jpg" alt="proses" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo4.jpg" alt="proses" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo5.jpg" alt="proses" style="height: 250px; width: 165px;">
+          <img src="/styles/img/photo6.jpg" alt="proses" style="height: 250px; width: 165px;">
         </div>
-        <img class="img1" src="img/photo7.jpg" alt="" style="height: 250px; width: 150px; margin-top: 2rem;">
+        <img class="img1" src="/styles/img/photo7.jpg" alt="produk-final" style="height: 300px; width: 150px; margin-top: 2rem; margin-bottom: 2rem;">
       </section>
       <section id="poster" class="poster">
         <h2>Poster</h2>
-        <img src="img/poster.png" alt="Poster" style="width: 250px; height: 350px;">
-        <p>View <a href="#">Poster</a></p>
+        <img src="/styles/img/poster.png" alt="Poster" style="width: 250px; height: 350px;">
+        <p>View <a href="#" target="_blank">Poster</a></p>
+      </section>
+      <section class="video">
+        <h2>Video</h2>
+        <video controls style="width: 300px; height: 200px; object-fit: contain;">
+          <source src="/styles/vid/video.mp4" type="video/mp4">
+        </video>
+        <p>View <a href="#" target="_blank">Video</a></p>
       </section>
     
     <!-- Anggota -->
-    <article id="anggota" class="container4">
+    <article id="anggota" class="container4" style="margin-top: 12px;">
       <h3>Anggota Kelompok</h3>
       <ol>
         <li>Muhammad Zibril (X-9, Div. DKV)</li>
@@ -94,6 +101,7 @@
     </footer>
 
     <!-- Bootstrap Bundle JS -->
+    <script src="/scripts/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
