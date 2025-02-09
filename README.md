@@ -1,8 +1,13 @@
 # PROJEK PENGUKUHAN MICRO - Web
 
-Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok diminum pada saat haus setelah berolahraga intens. Minuman kami juga dibundroll dengan harga Rp10.000,00.
-
 *Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.*
+*Framework used: Bootstrap 5.3.2*
+*Messy CSS*
+**Might be archived.**
+
+## Tentang "Melon Squash"
+
+Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok diminum pada saat haus setelah berolahraga intens. Minuman kami juga dibundroll dengan harga Rp10.000,00.
 
 ## Anggota Kelompok
 
