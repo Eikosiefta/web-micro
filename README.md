@@ -20,7 +20,7 @@ Kami menjual minuman, yaitu minuman yang menyegarkan. Sebuah minuman yang cocok 
 
 ---
 
-## LOG: 08/02/25 VI (LAST LOG???)
+## LOG: 08/02/25 VI LAST LOG
 
 Is this going to be the final log? I went through some trial and errors making this poject possible. And again, I want to say thank you to ChatGPT for helping me solving bugs.
 
