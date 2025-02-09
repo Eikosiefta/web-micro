@@ -1,9 +1,11 @@
 # PROJEK PENGUKUHAN MICRO - Web
 
 *Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.*
+
 *Framework used: Bootstrap 5.3.2*
 
 *Messy CSS*
+
 **Might be archived.**
 
 ## Tentang "Melon Squash"
