@@ -1,5 +1,7 @@
 # PROJEK PENGUKUHAN MICRO - Web
 
+***THIS REPOSITORY IS ARCHIVED.***
+
 *Special thanks to ChatGPT & Stack Overflow for helping me solve bugs.*
 
 *Framework used: Bootstrap 5.3.2*
